@@ -387,9 +387,6 @@ img {
    overflow: hidden;
 }
 
-.hover-text-wrap {
-}
-
 .portfolio-list-item:hover .portfolio-hover-text {
    transform: translateY(0%);
 }
@@ -513,6 +510,7 @@ img {
    fill: #f4f4fd;
 }
 
-.footer-link:hover {
+.footer-link:hover,
+.footer-link:focus {
    background: #31d0aa;
 }
